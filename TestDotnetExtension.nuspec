@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>aspnetcore</id>
+    <title>ASP.NET Core</title>
+    <version>1.0.0</version>
+    <authors>glennc</authors>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/aspnet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A site extension that will install a nightly build of the .NET CLI to test ASP.NET on Azure App Services</description>
+    <!--<iconUrl></iconUrl>-->
+    <tags>ASP.NET Core</tags>
+  </metadata>
+  <files>
+    <file src="applicationHost.xdt" target="content" />
+    <file src="dotnet/**/*.*" target="content" />
+  </files>
+</package>
